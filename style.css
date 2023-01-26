@@ -411,13 +411,16 @@ footer{
     padding-top: 2%;
 }
 
+.location{
+    width: 25%;
+}
 .adresse{
     display: flex;
     justify-content: space-around;
 }
 .adresse p:first-child{
     border-right: 2px solid #fafafa;
-    padding-right: 10px;
+    padding-right: 10px; 
 }
 .adresse p:nth-child(2){
     padding-left: 10px;
