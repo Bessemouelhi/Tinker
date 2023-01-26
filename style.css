@@ -445,6 +445,7 @@ footer .title{
         display: block;
         height: fit-content;
         text-align: center;
+        font-size: 2em;
     }
     .allicon div{
         margin: auto;
@@ -460,5 +461,11 @@ footer .title{
     }
     .logo, .location, .moreinfo, .getsocial{
         margin-bottom: 40px;
+        font-size: 1.3em;
+    }
+    .location{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
     }
 }
