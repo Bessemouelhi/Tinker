@@ -253,7 +253,11 @@ header p{
     padding-top: 10px;
     list-style: none;
 }
-
+@media screen and (max-width: 1000px){
+    .portfolio img{
+        width: 45%;
+    }
+}
 @media screen and (max-width: 600px){
     .portfolio{
         display: block;
@@ -383,7 +387,7 @@ aside ul{
     height: 300px;
     text-align: center;
     color: white;
-    padding-top: 5%;
+    display: flex;
 }
 .contactus div{
     min-width: 40%;
@@ -419,7 +423,6 @@ footer{
 }
 .adresse{
     display: flex;
-    justify-content: space-around;
 }
 .adresse p:first-child{
     border-right: 2px solid #fafafa;
