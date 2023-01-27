@@ -390,6 +390,9 @@ aside ul{
     max-width: 50%;
     margin: auto;
 }
+.contactus p{
+    border-top: 2px solid white;
+}
 .contactus p, .contactus h2{
     padding: 4%;
 }
